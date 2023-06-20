@@ -18,7 +18,9 @@ public class UserProfile
     
     private String userID;//the userID
     private String genre;// the user's preferred genre of movie
-    private String[] genres = {"Comedy", "Drama", "Action", "Mystery"};//available genres of movies
+    private String[] genres = {"Comedy", "Drama", "Action", "Mystery"};//available genres of movies 
+    
+    public enum Genres {COMEDY,DRAMA,ACTION,MYSTERY}
     
     /**
      * A constructor that takes in the userID and the favourite genre
@@ -61,7 +63,7 @@ public class UserProfile
         this.genre = genre;
     }
     
-    
+    //public Genres getGeners() {return this.genres;}
     
     
     
