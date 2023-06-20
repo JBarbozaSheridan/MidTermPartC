@@ -17,7 +17,7 @@ public class UserProfile
 {
     //IM A NEW COMMENT FROM JOSE
     //more comments
-    
+    //more coments
     private String userID;//the userID
     private String genre;// the user's preferred genre of movie
     private String[] genres = {"Comedy", "Drama", "Action", "Mystery"};//available genres of movies 
